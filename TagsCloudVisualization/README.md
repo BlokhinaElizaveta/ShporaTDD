@@ -1,7 +1,7 @@
 # Облако тегов
 
-![Example3](/example3.bmp)
+![Example3](/TagsCloudVisualization/example3.bmp)
 
-![Example1](/example1.bmp)
+![Example1](/TagsCloudVisualization/example1.bmp)
 
-![Example2](/example2.bmp)
+![Example2](/TagsCloudVisualization/example2.bmp)
