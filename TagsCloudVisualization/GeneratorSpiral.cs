@@ -13,7 +13,7 @@ namespace TagsCloudVisualization
         private double offsetRadius;
         private IEnumerator<Point> generator;
 
-        public GeneratorSpiral(Point center, double offsetAngle=0.5, double offsetRadius = 0.1)
+        public GeneratorSpiral(Point center, double offsetAngle=0.3, double offsetRadius = 0.003)
         {
             if (center.X < 0 || center.Y < 0)
                 throw new ArgumentException("Center should be with positive cordinates");

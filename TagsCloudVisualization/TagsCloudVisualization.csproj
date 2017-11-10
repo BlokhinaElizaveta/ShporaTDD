@@ -53,14 +53,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CircularCloudLayouter.cs" />
-    <Compile Include="CircularCloudLayouter_Should.cs" />
+    <Compile Include="TagsCloudTests\CircularCloudLayouter_Should.cs" />
     <Compile Include="GeneratorSpiral.cs" />
-    <Compile Include="GeneratorSpiral_Should.cs" />
+    <Compile Include="TagsCloudTests\GeneratorSpiral_Should.cs" />
     <Compile Include="ICircularCloudLayouter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RectangleExtension.cs" />
-    <Compile Include="RectangleExtension_Should.cs" />
+    <Compile Include="TagsCloudTests\RectangleExtension_Should.cs" />
     <Compile Include="Visualizator.cs" />
   </ItemGroup>
   <ItemGroup>

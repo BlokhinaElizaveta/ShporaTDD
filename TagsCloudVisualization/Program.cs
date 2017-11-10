@@ -11,13 +11,19 @@ namespace TagsCloudVisualization
         static void Main(string[] args)
         {
             var path = Path.Combine(Directory.GetCurrentDirectory(), "example.bmp"); ;
-            var visualizator = new Visualizator(new Size(1500, 800));
-            var layouter = new CircularCloudLayouter(new Point(750, 400));
+            var visualizator = new Visualizator(new Size(1400, 800));
+            var layouter = new CircularCloudLayouter(new Point(700, 400));
             var rectangles = new List<Rectangle>();
-            var random = new Random();
-            for (var i = 0; i < 100; i++)
+            var x = 73;
+            var y = 10;
+            var delta = 7;
+            var interval = 100;
+            for (var i = 1; i < 1000; i++)
             {
-                var size = new Size(random.Next(50, 100), random.Next(10, 50));
+                if (i % interval == 0)
+                    x -= delta;
+
+                var size = new Size(x, y);
                 rectangles.Add(layouter.PutNextRectangle(size));
             }
             visualizator.DrawRectangles(rectangles);
